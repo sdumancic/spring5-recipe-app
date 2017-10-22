@@ -29,7 +29,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class IndexControllerTest {
 
     @Mock
-    RecipeServiceImpl recipeService;
+    RecipeService recipeService;
 
     @Mock
     Model model;
